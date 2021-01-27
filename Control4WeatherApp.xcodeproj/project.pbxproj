@@ -8,22 +8,42 @@
 
 /* Begin PBXBuildFile section */
 		EF05DAAD25C1F34200588513 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF05DAAC25C1F34200588513 /* AppDelegate.swift */; };
-		EF05DAAF25C1F34200588513 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF05DAAE25C1F34200588513 /* SceneDelegate.swift */; };
-		EF05DAB125C1F34200588513 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF05DAB025C1F34200588513 /* ViewController.swift */; };
 		EF05DAB425C1F34200588513 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF05DAB225C1F34200588513 /* Main.storyboard */; };
 		EF05DAB625C1F35500588513 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF05DAB525C1F35500588513 /* Assets.xcassets */; };
 		EF05DAB925C1F35500588513 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF05DAB725C1F35500588513 /* LaunchScreen.storyboard */; };
+		EF05DAE525C1FC7B00588513 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF05DAE325C1FC7B00588513 /* MainVC.swift */; };
+		EF05DAE625C1FC7B00588513 /* MainVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF05DAE425C1FC7B00588513 /* MainVC.xib */; };
+		EF05DAEC25C1FFF900588513 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF05DAEB25C1FFF900588513 /* NetworkService.swift */; };
+		EF05DAEF25C2005100588513 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF05DAEE25C2005100588513 /* Constants.swift */; };
+		EF05DAFA25C206E300588513 /* Clouds.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF05DAF925C206E300588513 /* Clouds.swift */; };
+		EF05DAFD25C206F100588513 /* Coord.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF05DAFC25C206F100588513 /* Coord.swift */; };
+		EF05DB0025C2072A00588513 /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF05DAFF25C2072A00588513 /* Main.swift */; };
+		EF05DB0325C2073000588513 /* Sys.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF05DB0225C2073000588513 /* Sys.swift */; };
+		EF05DB0625C2073600588513 /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF05DB0525C2073600588513 /* Weather.swift */; };
+		EF05DB0925C2073B00588513 /* WeatherData.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF05DB0825C2073B00588513 /* WeatherData.swift */; };
+		EF05DB0C25C2074300588513 /* Wind.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF05DB0B25C2074300588513 /* Wind.swift */; };
+		EF05DB0F25C210CF00588513 /* ViewHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF05DB0E25C210CF00588513 /* ViewHelpers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		EF05DAA925C1F34200588513 /* Control4WeatherApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Control4WeatherApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF05DAAC25C1F34200588513 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EF05DAAE25C1F34200588513 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		EF05DAB025C1F34200588513 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		EF05DAB325C1F34200588513 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EF05DAB525C1F35500588513 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EF05DAB825C1F35500588513 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EF05DABA25C1F35500588513 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF05DAE325C1FC7B00588513 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		EF05DAE425C1FC7B00588513 /* MainVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainVC.xib; sourceTree = "<group>"; };
+		EF05DAEB25C1FFF900588513 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = NetworkService.swift; path = ../../../../../../NetworkService.swift; sourceTree = "<group>"; };
+		EF05DAEE25C2005100588513 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		EF05DAF925C206E300588513 /* Clouds.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Clouds.swift; sourceTree = "<group>"; };
+		EF05DAFC25C206F100588513 /* Coord.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Coord.swift; sourceTree = "<group>"; };
+		EF05DAFF25C2072A00588513 /* Main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
+		EF05DB0225C2073000588513 /* Sys.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sys.swift; sourceTree = "<group>"; };
+		EF05DB0525C2073600588513 /* Weather.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
+		EF05DB0825C2073B00588513 /* WeatherData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherData.swift; sourceTree = "<group>"; };
+		EF05DB0B25C2074300588513 /* Wind.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Wind.swift; sourceTree = "<group>"; };
+		EF05DB0E25C210CF00588513 /* ViewHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewHelpers.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +76,57 @@
 		EF05DAAB25C1F34200588513 /* Control4WeatherApp */ = {
 			isa = PBXGroup;
 			children = (
+				EF05DAE825C1FF9500588513 /* Models */,
+				EF05DAE925C1FFB600588513 /* Views */,
+				EF05DAE225C1FC4600588513 /* Controllers */,
+				EF05DAEA25C1FFC400588513 /* Services */,
 				EF05DAAC25C1F34200588513 /* AppDelegate.swift */,
-				EF05DAAE25C1F34200588513 /* SceneDelegate.swift */,
-				EF05DAB025C1F34200588513 /* ViewController.swift */,
 				EF05DAB225C1F34200588513 /* Main.storyboard */,
-				EF05DAB525C1F35500588513 /* Assets.xcassets */,
 				EF05DAB725C1F35500588513 /* LaunchScreen.storyboard */,
 				EF05DABA25C1F35500588513 /* Info.plist */,
+				EF05DAB525C1F35500588513 /* Assets.xcassets */,
 			);
 			path = Control4WeatherApp;
+			sourceTree = "<group>";
+		};
+		EF05DAE225C1FC4600588513 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				EF05DAE325C1FC7B00588513 /* MainVC.swift */,
+				EF05DAE425C1FC7B00588513 /* MainVC.xib */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		EF05DAE825C1FF9500588513 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				EF05DAF925C206E300588513 /* Clouds.swift */,
+				EF05DAFC25C206F100588513 /* Coord.swift */,
+				EF05DAFF25C2072A00588513 /* Main.swift */,
+				EF05DB0225C2073000588513 /* Sys.swift */,
+				EF05DB0525C2073600588513 /* Weather.swift */,
+				EF05DB0825C2073B00588513 /* WeatherData.swift */,
+				EF05DB0B25C2074300588513 /* Wind.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		EF05DAE925C1FFB600588513 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		EF05DAEA25C1FFC400588513 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				EF05DAEB25C1FFF900588513 /* NetworkService.swift */,
+				EF05DAEE25C2005100588513 /* Constants.swift */,
+				EF05DB0E25C210CF00588513 /* ViewHelpers.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +187,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EF05DAB925C1F35500588513 /* LaunchScreen.storyboard in Resources */,
+				EF05DAE625C1FC7B00588513 /* MainVC.xib in Resources */,
 				EF05DAB625C1F35500588513 /* Assets.xcassets in Resources */,
 				EF05DAB425C1F34200588513 /* Main.storyboard in Resources */,
 			);
@@ -137,9 +200,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EF05DAB125C1F34200588513 /* ViewController.swift in Sources */,
+				EF05DB0025C2072A00588513 /* Main.swift in Sources */,
+				EF05DAEC25C1FFF900588513 /* NetworkService.swift in Sources */,
+				EF05DB0625C2073600588513 /* Weather.swift in Sources */,
+				EF05DAE525C1FC7B00588513 /* MainVC.swift in Sources */,
 				EF05DAAD25C1F34200588513 /* AppDelegate.swift in Sources */,
-				EF05DAAF25C1F34200588513 /* SceneDelegate.swift in Sources */,
+				EF05DB0F25C210CF00588513 /* ViewHelpers.swift in Sources */,
+				EF05DB0325C2073000588513 /* Sys.swift in Sources */,
+				EF05DAFA25C206E300588513 /* Clouds.swift in Sources */,
+				EF05DAFD25C206F100588513 /* Coord.swift in Sources */,
+				EF05DB0925C2073B00588513 /* WeatherData.swift in Sources */,
+				EF05DAEF25C2005100588513 /* Constants.swift in Sources */,
+				EF05DB0C25C2074300588513 /* Wind.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
